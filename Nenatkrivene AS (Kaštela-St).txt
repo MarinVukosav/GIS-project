@@ -1,0 +1,4 @@
+Lokacija,Y,X,Klupe,Busevi,Odvojena,Kos,Natkrivena
+Luksic 2,43.553588,16.363490,0,"37,38",NE,0,NE
+Kambelovac 1,43.552546,16.372995,0,"37,38",NE,0,NE
+Sucurac 4,43.543468,16.441603,0,"2,37,38",NE,0,NE

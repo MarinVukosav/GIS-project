@@ -1,0 +1,5 @@
+Lokacija,Y,X,Klupe,Digitalna tabla,Natkrivena
+Sucurac,43.548965,16.428717,0,2,NE
+Gomilica,43.553523,16.400108,0,1,DA
+Kambelovac,43.555507,16.385673,0,1,DA
+Stari,43.567254,16.344908,2,0,NE
