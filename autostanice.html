@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       /* Set the size of the div element that contains the map */
+      #map {
+        height: 500px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
+  </head>
+  <body>
+    <h1>Autobusne stanice na području Kaštela</h1>
+
+    <div id="map"></div>
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtzGAjmGFkapBiLtGSbjO3Da7IF1MnFWI&callback=initMap">
+    </script>
+	<script type="text/javascript" src="auto_stanice.json"></script>
+	<h4>LEGEND</h4>
+	<div><img src = "https://img.icons8.com/metro/26/000000/trolleybus.png">Autobusna stanica Kaštela - Split</div>
+	<div><img src = "https://img.icons8.com/color/26/000000/trolleybus.png">Autobusna stanica Split - Kaštela</div>
+	<div><img src = "https://img.icons8.com/windows/32/000000/railway-station.png">Željezničke stanice</div>
+	<h4>Created by Frane Pavić, Robert Petričević, Marin Vukosav</h4>
+    <script>
+
+function initMap() {
+
+  var kastela = {lat: 43.550592, lng: 16.350045};
+  
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 12, center: kastela});
+	  
+	const markerStanicaKastelaSplit = {
+				url: "https://img.icons8.com/metro/26/000000/trolleybus.png",
+				scaledSize: new google.maps.Size(24, 24), 
+        };
+	const markerStanicaSplitKastela = {
+				url: "https://img.icons8.com/color/26/000000/trolleybus.png",
+				scaledSize: new google.maps.Size(24, 24), 
+        };
+	const markerStanicaZeljeznica = {
+				url: "https://img.icons8.com/windows/32/000000/railway-station.png",
+				scaledSize: new google.maps.Size(24, 24), 
+        };	
+	input.autobusiKS.map((autobus) => {
+    const pos = new google.maps.LatLng(autobus.X, autobus.Y); 
+    const marker = new google.maps.Marker({
+    position: pos,
+    map: map,
+    icon: markerStanicaKastelaSplit,
+    title:autobus.ime
+	
+        });
+	var infowindowKS = new google.maps.InfoWindow({
+		content: "<h4>" + autobus.ime + "</h4>" + "<div>Linije: " + autobus.Linija + "</div>" +
+				 "<div>Klupe: " + autobus.Klupe + "</div>" +
+				 "<div>Natkrivena: " + autobus.Natkrivena + "</div>"
+		});
+        google.maps.event.addListener(marker, 'click', function() {
+		  content: autobus.ime
+			infowindowKS.open(map, marker);
+            });
+        });
+	input.autobusiSK.map((autobus) => {
+    const pos = new google.maps.LatLng(autobus.X, autobus.Y); 
+    const marker = new google.maps.Marker({
+    position: pos,
+    map: map,
+    icon: markerStanicaSplitKastela,
+    title:autobus.ime
+        });
+		  var infowindowSK = new google.maps.InfoWindow({
+		  content: "<h4>" + autobus.ime + "</h4>" + "<div>Linije: " + autobus.Linija + "</div>" +
+				 "<div>Klupe: " + autobus.Klupe + "</div>" +
+				 "<div>Natkrivena: " + autobus.Natkrivena + "</div>"
+        });	
+
+        google.maps.event.addListener(marker, 'click', function() {
+            content:autobus.ime
+			infowindowSK.open(map, marker);
+            });
+        });
+	input.zeljeznica.map((vlak) => {
+    const pos = new google.maps.LatLng(vlak.X, vlak.Y); 
+    const marker = new google.maps.Marker({
+    position: pos,
+    map: map,
+    icon: markerStanicaZeljeznica,
+    title:vlak.ime
+        });
+		  var infowindowZ = new google.maps.InfoWindow({
+		  content: "<h4>" + vlak.ime + "</h4>" +
+				 "<div>Klupe: " + vlak.Klupe + "</div>" +
+				 "<div>Natkrivena: " + vlak.Natkrivena + "</div>"
+        });	
+
+        google.maps.event.addListener(marker, 'click', function() {
+            content:vlak.ime
+			infowindowZ.open(map, marker);
+            });
+        });
+}
+    </script>
+
+  </body>
+</html>

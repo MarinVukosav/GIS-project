@@ -7,6 +7,11 @@
 *.shp
 *.shx
 *.xml
+*.sbx
 
 # Packages #
 *.rar
+
+# Unnecessary text files #
+Autobusne stanice (Kaštela-St).txt
+Autobusne stanice (St-Kaštela).txt

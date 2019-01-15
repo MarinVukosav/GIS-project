@@ -1,0 +1,287 @@
+input = {
+    "autobusiKS": 
+    [
+        {
+            "ime": "Štafilić",
+            "X": 43.549804,
+            "Y": 16.328124, 
+			"Linija": "37,38",
+			"Klupe": 1,
+			"Natkrivena": "DA"
+        },
+        {
+            "ime": "Novi",
+            "X": 43.551195,
+            "Y": 16.335293,
+			"Linija": "37,38",
+			"Klupe": 1,
+			"Natkrivena": "DA"
+        },
+        {
+            "ime": "Stari 1",
+            "X": 43.552515,
+            "Y": 16.342900,
+			"Linija": "37,38",
+			"Klupe": 1,
+			"Natkrivena": "DA"
+        },
+        {
+            "ime": "Stari 2",
+            "X": 43.553761,
+            "Y": 16.346236,
+			"Linija": "37,38",
+			"Klupe": 1,
+			"Natkrivena": "DA"
+        },
+        {		
+            "ime": "Lukšić 1",
+            "X":  43.553657,
+            "Y":  16.355032,
+        	"Linija": "37,38",
+			"Klupe": 1,
+			"Natkrivena": "DA"
+		},
+        {
+            "ime": "Lukšić 2",
+            "X": 43.553588,
+            "Y": 16.363490,
+			"Linija": "37,38",
+			"Klupe": 0,
+			"Natkrivena": "NE"
+        },
+        {
+            "ime": "Kambelovac 1",
+            "X":  43.552546,
+            "Y":  16.372995,
+        	"Linija": "37,38",
+			"Klupe": 0,
+			"Natkrivena": "NE"
+		},
+        {
+            "ime": "Kamb. 2",
+            "X":  43.550219,
+            "Y":  16.383750,
+        	"Linija": "37,38",
+			"Klupe": 1,
+			"Natkrivena": "DA"
+		},
+        {
+            "ime": "Kambelovac 3 ",
+            "X":  43.549716,
+            "Y":  16.390464,
+			"Linija": "37,38",
+			"Klupe": 1,
+			"Natkrivena": "DA"
+        },
+        {
+            "ime": "Gomilica 1",
+            "X":  43.549087,
+            "Y":  16.395662,
+			"Linija": "37,38",
+			"Klupe": 1,
+			"Natkrivena": "DA"
+        },
+        {
+            "ime": "Gomilica 2",
+            "X":  43.547686,
+            "Y":  16.402833,
+			"Linija": "37,38",
+			"Klupe": 1,
+			"Natkrivena": "DA"
+        },
+        {
+            "ime": "Sućurac 1",
+            "X":  43.547198,
+            "Y":  16.410934,
+			"Linija": "2,37,38",
+			"Klupe": 1,
+			"Natkrivena": "DA"
+        },
+        {
+            "ime": "Sućurac 2",
+            "X":  43.547534,
+            "Y":  16.422377,
+			"Linija": "37,38",
+			"Klupe": 1,
+			"Natkrivena": "DA"
+        },
+        {
+            "ime": "Sućurac 3",
+            "X":  43.546978,
+            "Y":  16.427529,
+			"Linija": "37,38",
+			"Klupe": 1,
+			"Natkrivena": "DA"
+        },
+        {
+            "ime": "Sućurac 4",
+            "X":  43.543468,
+            "Y":  16.441603,
+			"Linija": "37,38",
+			"Klupe": 0,
+			"Natkrivena": "NE"
+        }
+    ],
+	"autobusiSK": 
+    [
+        {
+            "ime": "Prije Sućurca",
+            "X": 43.541300,
+            "Y": 16.453619,
+			"Linija": "2,37,38",
+			"Klupe": 1,
+			"Natkrivena": "DA"
+        },
+        {
+            "ime": "Sućurac",
+            "X": 43.547430,
+            "Y": 16.426071,
+			"Linija": "2,37,38",
+			"Klupe": 2,
+			"Natkrivena": "DA"
+        },
+        {
+            "ime": "Sućurac/Gomilica",
+            "X": 43.547305,
+            "Y": 16.408986,
+			"Linija": "37,38",
+			"Klupe": 0,
+			"Natkrivena": "NE"
+        },
+        {
+            "ime": "Gomilica 1",
+            "X": 43.548073,
+            "Y": 16.401212,
+			"Linija": "37,38",
+			"Klupe": 1,
+			"Natkrivena": "DA"
+        },
+        {
+            "ime": "Gomilica 2",
+            "X":  43.548825,
+            "Y":  16.397569,
+			"Linija": "37,38",
+			"Klupe": 1,
+			"Natkrivena": "DA"
+        },
+        {
+            "ime": "Gomilica/Kambelovac",
+            "X": 43.549470,
+            "Y": 16.391812,
+			"Linija": "37,38",
+			"Klupe": 1,
+			"Natkrivena": "DA"
+        },
+        {
+            "ime": "Kambelovac",
+            "X":  43.549922,
+            "Y":  16.385215,
+			"Linija": "37,38",
+			"Klupe": 1,
+			"Natkrivena": "DA"
+        },
+        {
+            "ime": "Kambelovac/Lukšić",
+            "X":  43.551936,
+            "Y":  16.376219,
+			"Linija": "37,38",
+			"Klupe": 1,
+			"Natkrivena": "DA"
+        },
+        {
+            "ime": "Lukšić 1",
+            "X":  43.552882,
+            "Y":  16.371951,
+			"Linija": "37,38",
+			"Klupe": 1,
+			"Natkrivena": "DA"
+        },
+        {
+            "ime": "Lukšić 2",
+            "X":  43.553635,
+            "Y":  16.364513,
+			"Linija": "37,38",
+			"Klupe": 3,
+			"Natkrivena": "DA"
+        },
+        {
+            "ime": "Stari 1",
+            "X":  43.553603,
+            "Y":  16.353704,
+			"Linija": "37,38",
+			"Klupe": 1,
+			"Natkrivena": "DA"
+        },
+        {
+            "ime": "Stari 2",
+            "X":  43.553878,
+            "Y":  16.347377,
+			"Linija": "37,38",
+			"Klupe": 1,
+			"Natkrivena": "DA"
+        },
+        {
+            "ime": "Stari 3",
+            "X":  43.552673,
+            "Y":  16.342997,
+			"Linija": "37,38",
+			"Klupe": 0,
+			"Natkrivena": "NE"
+        },
+        {
+            "ime": "Novi 1",
+            "X":  43.551849,
+            "Y":  16.339861,
+			"Linija": "37,38",
+			"Klupe": 1,
+			"Natkrivena": "DA"
+        },
+        {
+            "ime": "Novi 2",
+            "X":  43.551257,
+            "Y":  16.335585,
+			"Linija": "37,38",
+			"Klupe": 3,
+			"Natkrivena": "DA"
+        },
+        {
+            "ime": "Štafilić",
+            "X":  43.549069,
+            "Y":  16.326393,
+			"Linija": "37,38",
+			"Klupe": 1,
+			"Natkrivena": "DA"
+        }
+	],
+	"zeljeznica": 
+    [
+        {
+            "ime": "Sućurac",
+            "X": 43.548965,
+            "Y": 16.428718,	
+			"Klupe": 0,
+			"Natkrivena": "NE"
+        },
+        {
+            "ime": "Gomilica",
+            "X": 43.553523,
+            "Y": 16.400108,
+			"Klupe": 0,
+			"Natkrivena": "DA"
+        },
+        {
+            "ime": "Kambelovac",
+            "X": 43.555507,
+            "Y": 16.385673,
+			"Klupe": 0,
+			"Natkrivena": "NE"
+        },
+        {
+            "ime": "Stari",
+            "X": 43.567254,
+            "Y": 16.344908,
+			"Klupe": 2,
+			"Natkrivena": "NE"
+        }
+	]
+}
